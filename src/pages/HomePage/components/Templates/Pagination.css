@@ -1,0 +1,22 @@
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  color: #fff;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background: #884dfe;
+  border-radius: 50px;
+}
+
+.MuiPaginationItem-page {
+  background: #444551;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root:hover {
+  background: #444551;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+  background: #884dfe;
+}

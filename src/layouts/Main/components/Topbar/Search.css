@@ -1,0 +1,61 @@
+.css-6ffsbr-MuiAutocomplete-root {
+  background: #30313c;
+  border-radius: 4px;
+  width: 380px !important;
+}
+
+@media (max-width: 400px) {
+  .css-6ffsbr-MuiAutocomplete-root {
+    width: 300px !important;
+  }
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Satoshi Regular" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #9b9d9f !important;
+}
+
+#root
+  > div
+  > div.MainLayout_header__1AAm5
+  > div
+  > div
+  > div
+  > div.MuiAutocomplete-root.Mui-expanded.Mui-focused.MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root
+  > div
+  > div
+  > div
+  > button {
+  transform: none !important;
+}
+
+#root > div > div.MainLayout_header__1AAm5 > div > div > div > div:nth-child(2) > div > div > div > div > button {
+  transform: none !important;
+}
+
+.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+  font-family: "Satoshi Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+.css-gdh49b-MuiAutocomplete-listbox {
+  background-color: #30313b;
+  font-family: "Satoshi Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.css-gdh49b-MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+  background-color: #3e404d !important;
+}

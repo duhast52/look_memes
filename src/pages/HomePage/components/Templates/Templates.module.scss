@@ -1,0 +1,25 @@
+.templates {
+  padding: 20px 0 0 0;
+  &__container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  &__flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -10px;
+    @media (max-width: 900px) {
+      justify-content: center;
+    }
+  }
+  &__item {
+    margin: 0 0 25px 0;
+    padding: 0 10px;
+  }
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+  }
+}

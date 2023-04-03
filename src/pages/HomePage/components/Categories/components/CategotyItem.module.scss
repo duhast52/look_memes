@@ -1,0 +1,81 @@
+.category {
+  background: #24252e;
+  border: 2px solid #323443;
+  border-radius: 4px;
+  &__container {
+    padding: 20px;
+  }
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__input {
+    font-family: "Satoshi Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #ffffff;
+    background: none;
+    outline: none;
+    border: none;
+    width: 150px;
+    @media (max-width: 400px) {
+      width: 100px;
+    }
+  }
+  &__input::placeholder {
+    color: #696969;
+  }
+  &__name {
+    font-family: "Satoshi Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    flex: 0 1 60%;
+    word-wrap: break-word;
+    display: block;
+    max-width: 400px;
+    @media (max-width: 400px) {
+      max-width: 100px;
+      flex: 0 1 30%;
+    }
+    &.disable {
+      color: #696969;
+    }
+  }
+  &__buttons {
+    flex: 0 1 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__count {
+    font-family: "Satoshi Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9b9d9f;
+    &.disable {
+      color: #696969;
+    }
+  }
+  &__delete,
+  &__drag {
+    cursor: pointer;
+  }
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+									not supported by any browser */
+}

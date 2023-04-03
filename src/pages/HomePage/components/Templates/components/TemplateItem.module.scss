@@ -1,0 +1,48 @@
+.template {
+  position: relative;
+  display: block;
+  &__img {
+    width: 142px;
+    height: 142px;
+    object-fit: contain;
+  }
+  &__status {
+    font-family: "Satoshi Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 10px;
+    color: #ffffff;
+    background: #f9a322;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    padding: 9px 0;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    &.red {
+      background: #ff5b5b;
+    }
+    &.green {
+      background: #35ae41;
+    }
+  }
+  &__category {
+    font-family: "Satoshi Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+    color: #ffffff;
+    padding: 12px 0 4px 0;
+  }
+  &__name {
+    font-family: "Satoshi Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #e1e1e1;
+  }
+}

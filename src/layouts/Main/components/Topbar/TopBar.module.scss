@@ -1,0 +1,86 @@
+.topbar {
+  padding: 25px 0;
+  background: #1e1e27;
+  border-bottom: 1px solid #313442;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  @media (max-width: 935px) {
+    padding: 15px 0;
+  }
+  &__container {
+    padding: 0 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 935px) {
+      flex-direction: column;
+    }
+  }
+  &__item:last-child {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    @media (max-width: 935px) {
+      flex-direction: column;
+    }
+  }
+  &__item {
+    @media (max-width: 935px) {
+      margin: 0 0 10px 0;
+    }
+  }
+  &__logo {
+    display: flex;
+    align-items: flex-end;
+    font-family: "Satoshi Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #ffffff;
+    img {
+      margin: 0 10px 0 0;
+    }
+  }
+  &__newmeme {
+    display: block;
+    font-family: "Satoshi Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fcfcfc;
+    background: linear-gradient(104.43deg, #a139fd 11.26%, #50bdfc 90.79%);
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 13px 0;
+    margin: 0 25px 0 0;
+    @media (max-width: 935px) {
+      margin: 0 0 10px 0;
+    }
+    &_plus {
+      font-size: 18px;
+      margin: 0 5px 0 0;
+      position: relative;
+      top: -1px;
+    }
+  }
+  &__logout {
+    font-family: "Satoshi Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #9b9d9f;
+  }
+}
