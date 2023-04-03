@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 
-const PORT = "https://duhast52.github.io" || 8000;
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 
