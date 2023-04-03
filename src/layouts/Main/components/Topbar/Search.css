@@ -58,41 +58,41 @@
 }
 
 .css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
-  font-family: "Satoshi Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 12px;
-  color: #ffffff;
+  font-family: "Satoshi Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  color: #ffffff !important;
 }
 
 .css-1uvydh2 {
-  font-family: "Satoshi Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 12px;
-  color: #ffffff;
+  font-family: "Satoshi Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  color: #ffffff !important;
 }
 
 .css-gdh49b-MuiAutocomplete-listbox {
-  background-color: #30313b;
-  font-family: "Satoshi Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
+  background-color: #30313b !important;
+  font-family: "Satoshi Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
 }
 
 .css-t4hinj {
-  background-color: #30313b;
-  font-family: "Satoshi Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
+  background-color: #30313b !important;
+  font-family: "Satoshi Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
 }
 
 .css-gdh49b-MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
