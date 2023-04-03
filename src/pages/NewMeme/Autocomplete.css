@@ -6,9 +6,20 @@
   border-radius: 4px;
 }
 
+.MuiAutocomplete-root {
+  max-width: 640px !important;
+  width: 100% !important;
+  background: #24252e !important;
+  border: 2px solid #323443 !important;
+  border-radius: 4px !important;
+}
+
 @media (max-width: 860px) {
   .css-l3ln04-MuiAutocomplete-root {
     max-width: 100%;
+  }
+  .MuiAutocomplete-root {
+    max-width: 100% !important;
   }
 }
 
@@ -26,8 +37,16 @@
   padding: 0;
 }
 
+.css-1lambp5 .MuiFilledInput-root .MuiFilledInput-input {
+  padding: 0 !important;
+}
+
 .css-l3ln04-MuiAutocomplete-root .MuiFilledInput-root {
   padding: 20px;
+}
+
+.css-1lambp5 .MuiFilledInput-root {
+  padding: 20px !important;
 }
 
 .css-2y464i-MuiInputBase-root-MuiFilledInput-root,
@@ -44,6 +63,15 @@
   color: #ffffff;
 }
 
+.css-2bxn45 {
+  font-family: "Satoshi Regular" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  color: #ffffff !important;
+}
+
 .css-6od3lo-MuiChip-label {
   font-family: "Satoshi Regular";
   font-style: normal;
@@ -53,9 +81,25 @@
   color: #ffffff;
 }
 
+.css-ftr4jk {
+  font-family: "Satoshi Regular" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  color: #ffffff !important;
+}
+
 .css-l3ln04-MuiAutocomplete-root .MuiAutocomplete-tag {
   background: #494b57;
   border-radius: 4px;
   border: none;
   margin: 0 6px 5px 0;
+}
+
+.css-1lambp5 .MuiAutocomplete-tag {
+  background: #494b57 !important;
+  border-radius: 4px !important;
+  border: none !important;
+  margin: 0 6px 5px 0 !important;
 }
