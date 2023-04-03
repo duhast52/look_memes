@@ -7,11 +7,11 @@
 }
 
 .MuiAutocomplete-root {
-  max-width: 640px !important;
-  width: 100% !important;
-  background: #24252e !important;
-  border: 2px solid #323443 !important;
-  border-radius: 4px !important;
+  max-width: 640px;
+  width: 100%;
+  background: #24252e;
+  border: 2px solid #323443;
+  border-radius: 4px;
 }
 
 @media (max-width: 860px) {
@@ -82,6 +82,24 @@
 }
 
 .css-ftr4jk {
+  font-family: "Satoshi Regular" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  color: #ffffff !important;
+}
+
+.css-1g7d3df {
+  font-family: "Satoshi Regular" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  color: #ffffff !important;
+}
+
+.css-11kzweo {
   font-family: "Satoshi Regular" !important;
   font-style: normal !important;
   font-weight: 400 !important;
