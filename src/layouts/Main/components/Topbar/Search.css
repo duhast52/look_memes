@@ -4,9 +4,29 @@
   width: 380px !important;
 }
 
+.css-j5nvp8 {
+  background: #30313c;
+  border-radius: 4px;
+  width: 380px !important;
+}
+
+.css-j5nvp8-MuiAutocomplete-root {
+  background: #30313c;
+  border-radius: 4px;
+  width: 380px !important;
+}
+
 @media (max-width: 400px) {
   .css-6ffsbr-MuiAutocomplete-root {
     width: 300px !important;
+  }
+  .css-j5nvp8 {
+    width: 300px !important;
+  }
+  .css-j5nvp8-MuiAutocomplete-root {
+    background: #30313c;
+    border-radius: 4px;
+    width: 380px !important;
   }
 }
 
@@ -46,6 +66,15 @@
   color: #ffffff;
 }
 
+.css-1uvydh2 {
+  font-family: "Satoshi Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
 .css-gdh49b-MuiAutocomplete-listbox {
   background-color: #30313b;
   font-family: "Satoshi Medium";
@@ -56,6 +85,20 @@
   color: #ffffff;
 }
 
+.css-t4hinj {
+  background-color: #30313b;
+  font-family: "Satoshi Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
 .css-gdh49b-MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+  background-color: #3e404d !important;
+}
+
+.css-ue1yok .MuiAutocomplete-option.Mui-focused {
   background-color: #3e404d !important;
 }
