@@ -6,13 +6,11 @@
   border-radius: 4px;
 }
 
-/* .MuiAutocomplete-root {
+.MuiAutocomplete-root {
   max-width: 640px;
   width: 100%;
-  background: #24252e;
-  border: 2px solid #323443;
   border-radius: 4px;
-} */
+}
 
 @media (max-width: 860px) {
   .css-l3ln04-MuiAutocomplete-root {
